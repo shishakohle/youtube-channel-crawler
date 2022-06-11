@@ -1,5 +1,8 @@
 import googleapiclient.discovery
 from googleapiclient.errors import HttpError
+# For these imports, install as:
+# pip install --upgrade google-api-python-client
+# more: https://developers.google.com/youtube/v3/quickstart/python
 
 
 class YouTubeChannelCrawler:
